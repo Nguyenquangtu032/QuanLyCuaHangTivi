@@ -76,5 +76,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Business\Component\" />
+    <Folder Include="Business\EntitiesClass\" />
+    <Folder Include="DataAccess\" />
+    <Folder Include="Presentation\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
